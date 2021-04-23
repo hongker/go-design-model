@@ -6,4 +6,4 @@
 go get github.com/hongker/go-design-model
 ```
 ## 目录
-- [单例模式](https://github.com/hongker/go-design-model/tree/main/singleton)
+- [单例模式](https://github.com/hongker/go-design-model/tree/main/singleton) : 保证实例的初始化只会调用一次

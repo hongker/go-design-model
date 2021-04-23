@@ -1,3 +1,5 @@
+## 说明
+通过`sync.Once`实现
 ## 使用
 ```go
 import (
