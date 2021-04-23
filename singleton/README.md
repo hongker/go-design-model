@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-    instance := New(someConstructor)
+    instance := singleton.New(someConstructor)
     // 执行多次，也只会初始化一次
     for i := 0; i<10;i++ {
         fmt.Println(instance.Get())
