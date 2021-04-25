@@ -23,9 +23,9 @@ type DBLogger struct {}
 func (logger DBLogger) Write() {
 	fmt.Println("write to database...")
 }
-
+// LoggerFactory 工厂类
 type LoggerFactory struct {}
-// 创建
+// Create 创建
 func (factory LoggerFactory) Create(loggerType LoggerType) Logger{
 	var logger Logger
 	switch loggerType {

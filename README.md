@@ -8,7 +8,7 @@ go get github.com/hongker/go-design-model
 ## 目录
 - 创造型模式
     - [单例模式](https://github.com/hongker/go-design-model/tree/main/singleton) 
-    - 工厂模式
+    - [工厂模式](https://github.com/hongker/go-design-model/tree/main/factory)
     - 抽象工程模式
     - 建造者模式
     - 原型模式
