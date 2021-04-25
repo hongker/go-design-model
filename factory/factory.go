@@ -2,6 +2,13 @@ package factory
 
 import "fmt"
 
+type LoggerType uint
+
+const(
+	File LoggerType = iota + 1
+	DB
+)
+
 type Logger interface {
 	Write()
 }
@@ -17,18 +24,20 @@ func (logger DBLogger) Write() {
 	fmt.Println("write to database...")
 }
 
-type Factory interface {
-	Create() Logger
+type LoggerFactory struct {}
+// 创建
+func (factory LoggerFactory) Create(loggerType LoggerType) Logger{
+	var logger Logger
+	switch loggerType {
+	case File:
+		logger = new(FileLogger)
+	case DB:
+		logger = new(DBLogger)
+	}
+	return logger
 }
 
-type FileLoggerFactory struct {}
-func (factory FileLoggerFactory) Create() Logger{
-	return new(FileLogger)
-}
 
-type DBLoggerFactory struct {}
-func (factory DBLoggerFactory) Create() Logger {
-	return new(DBLogger)
-}
+
 
 
