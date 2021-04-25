@@ -15,8 +15,8 @@ type Singleton struct {
 // Constructor 构造函数
 type Constructor func() interface{}
 
-// Get return user object
-func (singleton *Singleton) Get() interface{} {
+// Instance return target object
+func (singleton *Singleton) Instance() interface{} {
 	singleton.once.Do(func() {
 		// init once
 		singleton.instance = singleton.constructor()
