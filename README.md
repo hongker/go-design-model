@@ -14,7 +14,7 @@ go get github.com/hongker/go-design-model
     - [原型模式](https://github.com/hongker/go-design-model/tree/main/prototype)
     
 - 结构型模式
-    - 适配器模式
+    - [适配器模式](https://github.com/hongker/go-design-model/tree/main/adapter)
     - 装饰器模式
     - 代理模式
     - 外观模式
