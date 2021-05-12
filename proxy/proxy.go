@@ -12,7 +12,7 @@ func (impl RealSubject) Do() {
 	fmt.Println("do something")
 }
 
-// SubjectProxy 代理类
+// SubjectProxy 静态代理类
 type SubjectProxy struct {
 	subject RealSubject
 }
