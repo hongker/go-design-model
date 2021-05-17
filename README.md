@@ -17,7 +17,7 @@ go get github.com/hongker/go-design-model
     - [适配器模式](https://github.com/hongker/go-design-model/tree/main/adapter)
     - [装饰器模式](https://github.com/hongker/go-design-model/tree/main/decorator)
     - [代理模式](https://github.com/hongker/go-design-model/tree/main/proxy)
-    - 外观模式
+    - [外观模式](https://github.com/hongker/go-design-model/tree/main/facade)
     - 桥接模式
     - 组合模式
     - 享元模式
