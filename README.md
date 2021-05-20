@@ -19,7 +19,7 @@ go get github.com/hongker/go-design-model
     - [代理模式](https://github.com/hongker/go-design-model/tree/main/proxy)
     - [外观模式](https://github.com/hongker/go-design-model/tree/main/facade)
     - [桥接模式](https://github.com/hongker/go-design-model/tree/main/bridge)
-    - 组合模式
+    - [组合模式](https://github.com/hongker/go-design-model/tree/main/composit)
     - 享元模式
     
 - 行为型模式
