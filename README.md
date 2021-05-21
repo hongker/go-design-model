@@ -23,7 +23,7 @@ go get github.com/hongker/go-design-model
     - [享元模式](https://github.com/hongker/go-design-model/tree/main/flyweight)
     
 - 行为型模式
-    - 策略模式
+    - [策略模式](https://github.com/hongker/go-design-model/tree/main/strategy)
     - 模板方法模式
     - 观察者模式
     - 迭代模式
