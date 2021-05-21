@@ -20,7 +20,7 @@ go get github.com/hongker/go-design-model
     - [外观模式](https://github.com/hongker/go-design-model/tree/main/facade)
     - [桥接模式](https://github.com/hongker/go-design-model/tree/main/bridge)
     - [组合模式](https://github.com/hongker/go-design-model/tree/main/composit)
-    - 享元模式
+    - [享元模式](https://github.com/hongker/go-design-model/tree/main/flyweight)
     
 - 行为型模式
     - 策略模式
