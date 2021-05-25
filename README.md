@@ -25,7 +25,7 @@ go get github.com/hongker/go-design-model
 - 行为型模式
     - [策略模式](https://github.com/hongker/go-design-model/tree/main/strategy)
     - [模板方法模式](https://github.com/hongker/go-design-model/tree/main/template)
-    - 观察者模式
+    - [观察者模式](https://github.com/hongker/go-design-model/tree/main/observer)
     - 迭代模式
     - 责任链模式
     - 备忘录模式
