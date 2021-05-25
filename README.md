@@ -30,5 +30,5 @@ go get github.com/hongker/go-design-model
     - [责任链模式](https://github.com/hongker/go-design-model/tree/main/chain)
     - [备忘录模式](https://github.com/hongker/go-design-model/tree/main/memento)
     - [状态模式](https://github.com/hongker/go-design-model/tree/main/state)
-    - 中介者模式
+    - [中介者模式](https://github.com/hongker/go-design-model/tree/main/mediator)
     - 解释器模式
