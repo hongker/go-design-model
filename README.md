@@ -29,6 +29,6 @@ go get github.com/hongker/go-design-model
     - [迭代模式](https://github.com/hongker/go-design-model/tree/main/iterator)
     - [责任链模式](https://github.com/hongker/go-design-model/tree/main/chain)
     - [备忘录模式](https://github.com/hongker/go-design-model/tree/main/memento)
-    - 状态模式
+    - [状态模式](https://github.com/hongker/go-design-model/tree/main/state)
     - 中介者模式
     - 解释器模式
